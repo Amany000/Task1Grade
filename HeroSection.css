@@ -1,0 +1,27 @@
+/* Styling for the hero section */
+.hero-section {
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px; /* Adjusting for navbar height */
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(3px);
+  }
+  
+  .hero-content h1 {
+    font-size: 4em;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
